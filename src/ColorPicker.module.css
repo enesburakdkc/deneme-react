@@ -1,0 +1,21 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.selectedColor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14rem;
+    height: 14rem;
+    background-color: #fff;
+    color: black;
+    border-radius: 3rem;
+}
+
+.selectedColor:hover {
+    cursor: pointer;
+}
